@@ -9,6 +9,7 @@ class State
 {
 public:
     int kind ;
+    int id;
     char edge1;
     char edge2;
     State * out1;
